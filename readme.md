@@ -11,5 +11,12 @@ provides a way to toggle between str and fstr for python buffer
 
 ## prerequisites
 * nvim 0.9.*
+* treesitter
 * haolian9/infra.nvim
 * haolian9/squirrel.nvim
+
+## usage
+my personal config
+```
+bm.i("<c-f>", function() require("squirrel.fstr")() end)
+```
